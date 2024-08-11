@@ -58,7 +58,6 @@ After launching the game, you'll be presented with a chessboard where you and an
 - **Online Multiplayer Mode**
 
 ## Contributing
-Contributions are welcome! If you have ideas for new features or improvements, feel free to open an issue or submit a pull request.
-
+Florin Niculcea
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
