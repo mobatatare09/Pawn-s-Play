@@ -14,3 +14,10 @@ for (let i=0;i<boarSquares.length;i++) {
     
 }
 }
+function setupPieces() {
+    for (let i = 0; i < pieces.length; i++) 
+      pieces[i].addEventListener("dragstart", drag);
+      pieces[i].setAttribute("draggable", true);
+      pieces[i].id =
+        pieces[i].className.split(" ")[1] + pieces[i].parentElement.id;
+}
