@@ -21,3 +21,16 @@ function setupPieces() {
       pieces[i].id =
         pieces[i].className.split(" ")[1] + pieces[i].parentElement.id;
 }
+for (let i = 0; i < piecesImages.length; i++) {
+    piecesImages[i].setAttribute("draggable", false);
+  }
+
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+function drag(ev) {
+    const piece = ev.target;
+    const pieceColor = piece.getAttribute("color");
+    const pieceType =piece.classList[1];
+    const pieceId = piece.id;
+}
