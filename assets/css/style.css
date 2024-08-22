@@ -3,14 +3,17 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  flex-direction: column; /* Align items in a vertical column */
-  margin: 0; /* Ensure there's no default margin on the body */
+  flex-direction: column;
+  /* Align items in a vertical column */
+  margin: 0;
+  /* Ensure there's no default margin on the body */
 }
 
 .chessBoard {
   width: 80vw;
   height: 80vw;
-  margin: 0 auto 20px; /* Add 20px margin at the bottom */
+  margin: 0 auto 20px;
+  /* Add 20px margin at the bottom */
   display: flex;
   flex-wrap: wrap;
 }
@@ -23,7 +26,8 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  box-shadow: inset 0 0 0 1px black; /* Thinner stroke: 1px */
+  box-shadow: inset 0 0 0 1px black;
+  /* Thinner stroke: 1px */
 }
 
 .white {
@@ -73,20 +77,21 @@ body {
 
 @media (min-width: 600px) {
   .chessBoard {
-      width: 600px;
-      height: 600px;
+    width: 600px;
+    height: 600px;
   }
 }
 
 @media (max-width: 600px) {
   .coordinate {
-      font-size: 8px;
+    font-size: 8px;
   }
 }
 
 /* New CSS for additional boxes */
 .additional-boxes {
-  width: 80vw; /* Match the width of the chessboard */
+  width: 80vw;
+  /* Match the width of the chessboard */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -97,6 +102,7 @@ body {
   width: 100px;
   height: 100px;
   background-color: #ddd;
-  margin: 10px 0; /* Space between boxes */
+  margin: 10px 0;
+  /* Space between boxes */
   border: 1px solid #333;
 }
