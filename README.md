@@ -15,14 +15,11 @@ Welcome to **Pawn's Play**, a simple player-vs-player chess game. This project i
 **Pawn's Play** is a minimalist chess game that allows two players to enjoy a classic game of chess on a single device. The game is built with simplicity in mind, focusing on core chess mechanics and an intuitive user interface.
 
 ## Features
-- **Basic Chessboard and Piece Interaction**: Move pieces according to standard chess rules.
-- **Local Player vs. Player Mode**: Play against another person on the same device.
-- **Move List Display**: View a list of all moves made during the game.
-- **Customizable Game Rules**: Optional customization of rules like time controls and special moves.
-- **In-Game Chat**: Communicate with your opponent during the game.
-- **Board and Piece Customization**: Personalize the appearance of the chessboard and pieces (Could Have).
-- **Post-Game Analysis and Feedback**: Review your game with move-by-move analysis (Could Have).
-
+Drag-and-Drop Movement: Players can drag pieces to different squares on the board. Valid moves are highlighted, and only legal moves are allowed.
+Turn-Based Play: The game alternates between white and black turns, ensuring that players can only move their pieces during their turn.
+Move Validation: The game checks whether moves are legal based on the type of piece and the current board state.
+Check Detection: The game identifies when a king is in check and prevents illegal moves that would leave the king in check.
+Checkmate Detection: The game detects checkmate situations, ending the game when a checkmate occurs.
 ## Installation
 To get started with **Pawn's Play**, follow these steps:
 
