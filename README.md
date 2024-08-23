@@ -13,7 +13,7 @@ Welcome to **Pawn's Play**, a simple player-vs-player chess game. This project i
 
 ## Introduction
 **Pawn's Play** is a minimalist chess game that allows two players to enjoy a classic game of chess on a single device. The game is built with simplicity in mind, focusing on core chess mechanics and an intuitive user interface.
-
+    ## Features
  **Drag-and-Drop Movement**: Players can drag pieces to different squares on the board. Valid moves are highlighted, and only legal moves are allowed.
 - **Turn-Based Play**: The game alternates between white and black turns, ensuring that players can only move their pieces during their turn.
 - **Move Validation**: The game checks whether moves are legal based on the type of piece and the current board state.
