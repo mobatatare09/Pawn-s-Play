@@ -3,6 +3,7 @@
 Welcome to Pawn's Play, a simple player-vs-player chess game. This project is designed to provide a straightforward, enjoyable chess experience for two players on the same device.
 
 ## Table of Contents
+- [Wireframe](#Wireframe)
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
@@ -11,6 +12,8 @@ Welcome to Pawn's Play, a simple player-vs-player chess game. This project is de
 - [Contributing](#contributing)
 - [License](#license)
 
+  ## Wireframe
+![Screenshot 2024-08-23 085630](https://github.com/user-attachments/assets/6a2c719e-8567-4954-b6f9-b7c111b623e5)
 ## Introduction
 
 Pawn's Play is a minimalist chess game that allows two players to enjoy a classic game of chess on a single device. The game is built with simplicity in mind, focusing on core chess mechanics and an intuitive user interface.
